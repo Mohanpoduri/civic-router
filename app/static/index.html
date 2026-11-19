@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Civic Complaint Router</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">CR</div>
+      <div>
+        <h1>Civic Complaint Router</h1>
+        <p>Routes citizen complaints in English, Telugu and Hindi</p>
+      </div>
+    </div>
+    <span id="status" class="status">Checking…</span>
+  </header>
+
+  <main class="container">
+    <section class="stats" aria-label="Summary">
+      <div class="stat"><span class="stat-label">Total tickets</span><span class="stat-value" id="stat-total">0</span></div>
+      <div class="stat stat-critical"><span class="stat-label">Critical</span><span class="stat-value" id="stat-critical">0</span></div>
+      <div class="stat stat-warn"><span class="stat-label">Needs human triage</span><span class="stat-value" id="stat-triage">0</span></div>
+      <div class="stat"><span class="stat-label">Duplicates</span><span class="stat-value" id="stat-dup">0</span></div>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <h2>New complaint</h2>
+        <p class="muted">Write in any language or mix them. Personal phone numbers are masked automatically.</p>
+
+        <form id="complaint-form">
+          <textarea id="text" rows="5" maxlength="2000" required minlength="3"
+            placeholder="e.g. Live wire has fallen near the park in ward 12"></textarea>
+          <div class="form-foot">
+            <span id="counter" class="muted">0 / 2000</span>
+            <button type="submit" class="btn btn-primary" id="submit-btn">Submit complaint</button>
+          </div>
+        </form>
+
+        <div class="examples">
+          <span class="muted">Try an example:</span>
+          <button class="chip" data-example="There is no water supply in our street for two days">Water (EN)</button>
+          <button class="chip" data-example="रोड पर बड़ा गड्ढा है, बाइक फिसल रही हैं">Roads (HI)</button>
+          <button class="chip" data-example="కరెంటు తీగ తెగి రోడ్డు మీద పడింది">Power (TE)</button>
+          <button class="chip" data-example="street dogs ekkuva ayyayi, pillalni karistunnayi">Dogs (Tenglish)</button>
+          <button class="chip" data-example="Open manhole on the main road near the school, someone can fall">Manhole (EN)</button>
+        </div>
+      </section>
+
+      <section class="card" id="result-card" aria-live="polite">
+        <h2>Result</h2>
+        <div id="result-empty" class="empty">
+          <p>Submit a complaint to see how it is routed.</p>
+        </div>
+        <div id="result" hidden></div>
+      </section>
+    </div>
+
+    <section class="card">
+      <div class="list-head">
+        <h2>Tickets</h2>
+        <div class="filters" role="group" aria-label="Filter by urgency">
+          <button class="filter active" data-filter="">All</button>
+          <button class="filter" data-filter="critical">Critical</button>
+          <button class="filter" data-filter="high">High</button>
+          <button class="filter" data-filter="medium">Medium</button>
+          <button class="filter" data-filter="low">Low</button>
+        </div>
+      </div>
+      <div id="ticket-list" class="ticket-list"></div>
+      <p id="ticket-empty" class="empty" hidden>No tickets yet.</p>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

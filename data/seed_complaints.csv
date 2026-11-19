@@ -1,0 +1,67 @@
+text,department,urgency,language
+No water supply in our street for the last two days,water_supply,medium,en
+Tap water is coming muddy and smells bad since morning,water_supply,high,en
+"Main water pipe burst near ward 12, water is flooding the road",water_supply,high,en
+हमारे मोहल्ले में तीन दिन से पानी नहीं आ रहा है,water_supply,medium,hi
+"नल से गंदा पानी आ रहा है, बच्चे बीमार पड़ सकते हैं",water_supply,high,hi
+మా వీధిలో రెండు రోజులుగా నీళ్లు రావడం లేదు,water_supply,medium,te
+కుళాయి నుండి మురికి నీళ్లు వస్తున్నాయి,water_supply,high,te
+hamare area me paani ki supply band hai 2 din se,water_supply,medium,hi-latn
+"maa street lo neellu raavatledu, tap lo water ledu",water_supply,medium,te-latn
+"Huge pothole on the main road near the bus stand, bikes are skidding",roads,high,en
+"Road is completely broken after the rain, impossible to drive",roads,medium,en
+"सड़क पर बड़ा गड्ढा है, रोज़ हादसे हो रहे हैं",roads,high,hi
+"मेन रोड टूटी हुई है, मरम्मत करवाइए",roads,medium,hi
+"రోడ్డు మీద పెద్ద గుంత ఉంది, బైక్‌లు పడిపోతున్నాయి",roads,high,te
+"రోడ్డు పూర్తిగా పాడైపోయింది, వాహనాలు వెళ్లడం కష్టంగా ఉంది",roads,medium,te
+"road pe bada gaddha hai, accident ho sakta hai",roads,high,hi-latn
+"road meeda pedda gunta undi, vehicles ki problem",roads,medium,te-latn
+Garbage has not been collected in our lane for a week,sanitation,medium,en
+"Overflowing dustbin near the market, huge stink and flies",sanitation,medium,en
+"कूड़ा कई दिनों से नहीं उठा है, बदबू आ रही है",sanitation,medium,hi
+सड़क किनारे कचरे का ढेर लगा है,sanitation,medium,hi
+చెత్త వారం రోజులుగా తీయడం లేదు,sanitation,medium,te
+చెత్త కుండీ నిండిపోయి దుర్వాసన వస్తోంది,sanitation,medium,te
+kachra uthane wali gaadi kai din se nahi aayi,sanitation,medium,hi-latn
+"chetta teeyadam ledu, vaaram nundi pile ayyindi",sanitation,medium,te-latn
+Sewage is overflowing onto the road near the school,drainage,high,en
+Drain is blocked and dirty water is entering houses,drainage,high,en
+"There is an open manhole on the main road, someone can fall in",drainage,critical,en
+"नाली जाम हो गई है, गंदा पानी सड़क पर बह रहा है",drainage,high,hi
+"सीवर का ढक्कन खुला है, कोई गिर सकता है",drainage,critical,hi
+డ్రైనేజీ పొంగి రోడ్డు మీదకు వస్తోంది,drainage,high,te
+"మ్యాన్‌హోల్ మూత తెరిచి ఉంది, ప్రమాదం జరగవచ్చు",drainage,critical,te
+naali band hai aur ganda paani ghar me aa raha hai,drainage,high,hi-latn
+"drainage overflow avthundi, road meeda dirty water",drainage,high,te-latn
+Live electric wire has fallen on the road near the park,electricity,critical,en
+Frequent power cuts in our area every evening,electricity,medium,en
+बिजली का तार टूटकर सड़क पर गिरा है,electricity,critical,hi
+रोज़ शाम को बिजली चली जाती है,electricity,medium,hi
+కరెంటు తీగ తెగి రోడ్డు మీద పడింది,electricity,critical,te
+ప్రతిరోజూ సాయంత్రం కరెంటు పోతోంది,electricity,medium,te
+"transformer se sparking ho rahi hai, aag lag sakti hai",electricity,critical,hi-latn
+"current poyindi 5 gantalu nundi, voltage problem undi",electricity,medium,te-latn
+Street lights on our road have not been working for ten days,streetlights,medium,en
+Streetlight pole is leaning and may fall on the road,streetlights,high,en
+"गली की स्ट्रीट लाइट खराब है, रात में अंधेरा रहता है",streetlights,medium,hi
+"स्ट्रीट लाइट का खंभा झुक गया है, गिर सकता है",streetlights,high,hi
+"వీధి దీపాలు వెలగడం లేదు, రాత్రి చీకటిగా ఉంది",streetlights,medium,te
+వీధి లైట్ స్తంభం వంగిపోయింది,streetlights,high,te
+"street light kharab hai, raat ko andhera rehta hai",streetlights,medium,hi-latn
+"street light veligadam ledu, night chala dark ga undi",streetlights,medium,te-latn
+Stray dogs are biting children in our colony,stray_animals,high,en
+Dead animal on the roadside has not been removed,stray_animals,medium,en
+आवारा कुत्ते बच्चों को काट रहे हैं,stray_animals,high,hi
+सड़क पर मरे हुए जानवर की बदबू आ रही है,stray_animals,medium,hi
+వీధి కుక్కలు పిల్లలను కరుస్తున్నాయి,stray_animals,high,te
+"రోడ్డు మీద చనిపోయిన జంతువు ఉంది, దుర్వాసన వస్తోంది",stray_animals,medium,te
+"awara kutte bahut hain, bachon ko kaat rahe hain",stray_animals,high,hi-latn
+"street dogs ekkuva ayyayi, pillalni karistunnayi",stray_animals,high,te-latn
+"Shops have occupied the footpath, pedestrians have to walk on the road",encroachment,low,en
+Illegal construction is blocking the public road,encroachment,medium,en
+फुटपाथ पर दुकानदारों ने कब्ज़ा कर लिया है,encroachment,low,hi
+गली में अवैध निर्माण से रास्ता बंद हो गया है,encroachment,medium,hi
+"ఫుట్‌పాత్ మీద దుకాణాలు పెట్టారు, నడవడానికి వీలు లేదు",encroachment,low,te
+అక్రమ నిర్మాణం వల్ల రోడ్డు మూసుకుపోయింది,encroachment,medium,te
+footpath par thele wale kabza kar liye hain,encroachment,low,hi-latn
+"footpath meeda shops pettaru, nadavadaniki place ledu",encroachment,low,te-latn
